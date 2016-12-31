@@ -3,4 +3,4 @@ jdk: oraclejdk8
 
 script:
   - cd alma-server/
-  - mvn clean verify -e
+  - mvn clean verify -f alma-server/pom.xml -e
